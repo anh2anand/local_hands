@@ -1,0 +1,32 @@
+{
+  "name": "localhands-mvp",
+  "version": "1.0.0",
+  "description": "LocalHands — Voice-first marketplace connecting households with skilled local workers in India",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client",
+    "start": "node server/index.js",
+    "test:api": "node test_backend.js"
+  },
+  "keywords": [
+    "localhands",
+    "marketplace",
+    "blue-collar",
+    "skilled-labor",
+    "voice-first",
+    "bhashini",
+    "eshram",
+    "pm-vishwakarma",
+    "escrow"
+  ],
+  "author": "Antigravity Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1"
+  }
+}
